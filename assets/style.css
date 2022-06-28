@@ -67,29 +67,37 @@ body{
     header{
     text-align: center;
     color:black;
-    background-color: rgb(172, 140, 103);
+    background-color: tan;
     border: 3px solid rgb(230, 143, 3);
     
     }
   
     .pics{
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     background-color: rgb(230, 143, 3);
-    padding: 5%;
-    border: 13px solid #20450ff8;
-    margin: 0%;
+    padding: 1%;
+    border: 5px solid #20450ff8;
+    
    }
 .aboutus{
   text-align: center;
   color: black ;
-  background-color: rgb(172, 140, 103) ;
+  background-color: tan;
+   /* rgb(172, 140, 103) ; */
   border: 3px solid rgb(214, 135, 9);
-  margin: 0%;
+  margin-top:2%; 
+  
+
 }
 
-
+.getmyquote{
+  background-color: rgb(214, 135, 9);
+  display:flexbox;
+  text-align: center;
+}
  
 
 
