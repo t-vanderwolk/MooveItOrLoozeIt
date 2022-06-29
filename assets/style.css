@@ -8,6 +8,7 @@
 
 
 .navbar {
+  display: flex;
     overflow:hidden;
     color: black;
     background-color:tan;
@@ -87,7 +88,7 @@
     
     }
   
-    .pics{
+    ol{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -98,8 +99,7 @@
    
     padding: 2%;
     border: 3px solid black;
-    margin-left: 7%;
-    margin-right: 7%;
+    
     
    }
 .aboutus{
