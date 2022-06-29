@@ -1,14 +1,19 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
  body{
-  background-image: url(./photos/IMG_3318.JPG);
+  background-image: url(./photos/IMG_3318.JPG)
+  ;
 }
+
+
 
 .navbar {
     overflow:hidden;
     color: black;
-    background-color:green;
+    background-color:tan;
     font-family: 'Tinos', serif;
-    border: 3px solid  black;
+    border: 3px solid black;
+    margin-bottom: 2%;
+   
     
   }
 
@@ -71,7 +76,7 @@
     header{
     text-align: center;
     color:black;
-    background-color:rgb(165, 125, 73);
+    background-color:green;
     /* rgb(102, 72, 38); */
     border: 3px solid  black;
     
@@ -82,17 +87,20 @@
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
-    background-color:tan;
+    background-color:rgb(165, 125, 73);
     /* #20450ff8; */ 
      /* rgb(102, 72, 38); */
-    padding: 1%;
-    border: 5px solid black;
+   
+    padding: 2%;
+    border: 3px solid black;
+    margin-left: 7%;
+    margin-right: 7%;
     
    }
 .aboutus{
   text-align: center;
   color: black ;
-  background-color:rgb(165, 125, 73) ;
+  background-color:tan ;
    /* rgb(172, 140, 103) ; */
    border: 3px solid  black;
   margin-top:2%; 
