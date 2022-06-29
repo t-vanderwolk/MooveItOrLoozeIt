@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Condiment&family=Oxygen:wght@300&family=Pacifico&family=Permanent+Marker&family=Source+Code+Pro&display=swap');
  body{
   background-image: url(./photos/IMG_3318.JPG)
   ;
@@ -12,7 +13,7 @@
     background-color:tan;
     font-family: 'Tinos', serif;
     border: 3px solid black;
-    margin-bottom: 2%;
+    /* margin-bottom: 2%; */
    
     
   }
@@ -76,8 +77,12 @@
     header{
     text-align: center;
     color:black;
-    background-color:green;
+    background-color:rgb(4, 158, 4);
     /* rgb(102, 72, 38); */
+  
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
     border: 3px solid  black;
     
     }
@@ -104,6 +109,9 @@
    /* rgb(172, 140, 103) ; */
    border: 3px solid  black;
   margin-top:2%; 
+  font-weight: 400;
+  font-size: 20px;
+  font-family: 'Source Code Pro', monospace;
   
 
 }
@@ -120,3 +128,14 @@ img{
 }
 
 
+.contact-heading{
+  text-align: center;
+    color:black;
+    background-color:rgb(4, 158, 4);
+    /* rgb(102, 72, 38); */
+  
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+    border: 3px solid  black;
+}
