@@ -234,4 +234,9 @@ img{
 .about-us-text{
   display: flex;
   background-color: rgb(4, 158, 4);
+  padding: 5%;
+}
+.madewithlove{
+  text-align: center;
+  background-color: rgb(4, 158, 4);
 }

@@ -30,9 +30,33 @@
         <section class = "review-body">
           <h1>Write a Review</h1>
         </section>
-        <label class="label-review"><b>How was our service?</b></label>
-        <input class="input-review-text" type="text">
-       
-        <button class="button" type="submit">submit</button>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
+          Name: <input type="text" name="fname">
+          <input type="submit">
+      </form>
+    <div
+      <?php
+          if ($_SERVER["REQUEST_METHOD"] == "POST")
+          {
+              $str = $_POST['fname'];
+                
+              if (empty($str)) 
+              {
+                echo "String is empty";
+              } 
+              else 
+              {
+      ?>
+                 <h1>
+                   <?php echo $str ?>
+                 </h1>
+      <?php
+              }
+          }
+      ?>
+        </div>
+        <!-- <button class="button" type="submit">submit</button> -->
+        <footer class ="madewithlove"> Made with ❤️ by your lil sis</footer>
+
 </body>
 </html>
