@@ -27,39 +27,23 @@
     <div class="quote-header">
         <h1>Get A Quote</h1>
     </div>
-    
-    <form class="getmyquote">
-       
 
-        <h1>Tell Us More About Your Upcoming Move</h1>
-
-        <label class="label"><b>First Name?</b></label>
-        <input class="input" type="text">
-         
-        <label class="label"><b>Last Name?</b></label>
-        <input class="input" type="text">
-        <label class="label"><b>Email Address?</b></label>
-        <input class="input" type="email">
-        <label class="label"><b>Phone Number?</b></label>
-        <input class="input" type="tel">
-
-        <label class="label"><b>Current Address?</b></label>
-        <input class="input" type="text">
-        <label class="label"><b>Moving To Address?</b></label>
-        <input class="input" type="text">
-        <label class="label"><b>How Many Bedrooms?</b></label>
-        <input class="input" type="number">
-      
-        <label class="label"><b>How Many Miles Are You Moving?</b></label>
-        <input class="input" type="text">
-        <label class="label"><b>Moving Date?</label>
-        <input class="input" type="date">
-        <label class="label">How Did You Hear About Us?</b></label>
-        <input class="input" type="text">
-        <button class="button">Get My Quote</button>
+    <form action="mailto:pvw505@gmail.com" method="post" enctype="text/plain" id="getmyquote">
+        <h1>Tell Us More About Your Upcoming Move!</h1>
+        First Name:<input type="text" name="FirstName">
+        Last Name:<input type="text" name="LastName">
+        Email:<input type="email" name="Email">
+        Phone Number:<input type="tel" name="PhoneNumber">
+        Current Address:<input type ="text" name ="CurrentAddress">
+        Moving To Address: <input type="text" name = "MovingToAddress">
+        How Many Bedrooms: <input type="number" name = "Bedrooms">
+        Moving Date: <input type="date" name = "MovingDate">
+        How Many Miles Are You Moving: <input type="text" name = "MovingMiles">
+        How Did You Hear About Us:<input type="text" name = "HearAboutUs">
+        <input type="submit" name="submit" value="Submit">
         </form>
-       
-         
+    
+            
         
 </body>
 </html>
