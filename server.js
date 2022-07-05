@@ -1,6 +1,6 @@
 const express = require('express');
 // Import and require mysql2
-const mysql = require('mysql2');
+const mongodb = require('mongodb');
 let createError = require('http-errors');
 
 let path = require('path');
@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // Connect to database
-const db = mysql.createConnection(
+const db = mongodb.createConnection(
   {
     host: 'localhost',
     // MySQL username,

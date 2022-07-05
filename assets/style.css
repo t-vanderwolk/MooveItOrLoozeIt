@@ -272,7 +272,7 @@ input{
 input[type=submit] {
   font-family: 'Helvetica', serif;
   width: 100%;
-  background-color: #767474;
+  background-color: rgb(4, 158, 4);
   border: none;
   color: white;
   padding: 16px 32px;

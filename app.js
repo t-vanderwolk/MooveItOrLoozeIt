@@ -23,7 +23,12 @@ app.post('/sign_up', function(req,res){
     let email =req.body.email;
     let pass = req.body.password;
     let phone =req.body.phone;
-  
+    let currentAddress=req.body.currentAddress;
+    let movingAddress=req.body.movingAddress;
+    let rooms=req.body.rooms;
+    let date=req.body.date;
+    let miles=req.body.miles;
+
     let data = {
         "name": name,
         "email":email,
