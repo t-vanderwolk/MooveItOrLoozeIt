@@ -240,3 +240,10 @@ img{
   text-align: center;
   background-color: rgb(4, 158, 4);
 }
+#review-body, #post {
+  border: none;
+  border-radius: 5px;
+}
+#post:hover{
+  background-color: deeppink;
+}
