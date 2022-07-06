@@ -88,8 +88,8 @@
     
     }
   
-    ol{
-    display: flex;
+     ol{
+    display: inline-flex;
     justify-content:space-between;
     align-items: center;
     list-style: none;
@@ -99,9 +99,10 @@
    margin-left:7%;
    margin-right:7%;
    margin-top: 0%;
+   margin-bottom: 0%;
     padding: 2%;
     border: 3px solid black;
-    }
+    } 
   
 .aboutus{
   text-align: center;
@@ -288,4 +289,11 @@ input[type=submit] {
   margin-left: 7%;
   margin-right: 7%;
   border: 3px solid black;
+}
+.icons{
+  display: flex;
+  background-color:tan;
+  justify-content: space-between;
+  border: 3px solid black;
+  margin: 0%;
 }
