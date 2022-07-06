@@ -76,6 +76,8 @@
     display: block; }
 
     header{
+      justify-content: center;
+      display: flex;
     text-align: center;
     color:black;
     background-color:rgb(4, 158, 4);
@@ -89,7 +91,7 @@
     }
   
      ol{
-    display: inline-flex;
+    display: flex;
     justify-content:space-between;
     align-items: center;
     list-style: none;
@@ -105,9 +107,11 @@
     } 
   
 .aboutus{
+  display: flex;
+  justify-content: center;
   text-align: center;
   color:black;
-  background-color:tan;
+  background-color:rgb(4, 158, 4);
   /* rgb(102, 72, 38); */
 margin-top: 0%;
   font-weight: 400;
@@ -129,6 +133,7 @@ margin-top: 0%;
 }
 
 img{
+  display: inline-flex;
   border: 3px solid black;
 }
 
@@ -234,12 +239,12 @@ img{
 }
 .about-us-text{
   display: flex;
-  background-color: rgb(4, 158, 4);
+  background-color: rgb(165, 125, 73);
   padding: 5%;
 }
 .madewithlove{
   text-align: center;
-  background-color: rgb(4, 158, 4);
+  background-color: tan;
 }
 #review-body, #post {
   border: 3px solid  black;
