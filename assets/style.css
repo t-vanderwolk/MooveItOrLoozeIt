@@ -76,9 +76,10 @@
     display: block; }
 
     header{
-      justify-content: center;
-      display: flex;
-    text-align: center;
+      text-align: center;
+      /* justify-content: center; */
+      display: block;
+    align-self: center;
     color:black;
     background-color:rgb(4, 158, 4);
     /* rgb(102, 72, 38); */
@@ -91,7 +92,7 @@
     }
   
      ol{
-    display: flex;
+    display: inline-flex;
     justify-content:space-between;
     align-items: center;
     list-style: none;
@@ -107,7 +108,7 @@
     } 
   
 .aboutus{
-  display: flex;
+  display: block;
   justify-content: center;
   text-align: center;
   color:black;
@@ -133,7 +134,7 @@ margin-top: 0%;
 }
 
 img{
-  display: inline-flex;
+  display: flex;
   border: 3px solid black;
 }
 
@@ -239,12 +240,14 @@ img{
 }
 .about-us-text{
   display: flex;
-  background-color: rgb(165, 125, 73);
+  background-color: tan;
   padding: 5%;
+  margin: 24px;
 }
 .madewithlove{
   text-align: center;
-  background-color: tan;
+  background-color: rgb(165, 125, 73);
+  margin: 24px;
 }
 #review-body, #post {
   border: 3px solid  black;
@@ -299,6 +302,15 @@ input[type=submit] {
   display: flex;
   background-color:tan;
   justify-content: space-between;
-  border: 3px solid black;
+  
   margin: 0%;
+}
+.home-logo{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+#home-logo{
+  border-radius: 75%;
 }
