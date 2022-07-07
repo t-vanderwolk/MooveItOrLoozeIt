@@ -5,6 +5,7 @@
     "express": "^4.18.1",
     "express-flash": "^0.0.2",
     "express-session": "^1.17.3",
+    "gh-pages": "^4.0.0",
     "mongodb": "^4.7.0",
     "mongoose": "^6.4.3",
     "morgan": "^1.10.0",
@@ -14,11 +15,18 @@
     "php": "^1.0.2"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "start",
+    "build": "build",
+    "test": "test",
+    "eject": "eject"
   },
   "name": "mooveitorloozeit",
   "version": "1.0.0",
   "main": "server.js",
+  "homepage": "https://github.com/t-vanderwolk/MooveItOrLoozeIt#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/t-vanderwolk/MooveItOrLoozeIt.git"
@@ -29,6 +37,5 @@
   "bugs": {
     "url": "https://github.com/t-vanderwolk/MooveItOrLoozeIt/issues"
   },
-  "homepage": "https://github.com/t-vanderwolk/MooveItOrLoozeIt#readme",
   "description": ""
 }
