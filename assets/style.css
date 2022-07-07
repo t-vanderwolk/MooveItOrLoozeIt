@@ -1,8 +1,8 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Condiment&family=Oxygen:wght@300&family=Pacifico&family=Permanent+Marker&family=Source+Code+Pro&display=swap');
  body{
-  background-image: url(./photos/IMG_3318.JPG)
-  ;
+  background-image: url(./photos/IMG_3318.JPG);
+  
 }
 
 
@@ -91,30 +91,31 @@
     
     }
   
-     ol{
-    display: inline-flex;
-    justify-content:space-between;
+    ol {
+    display: flex;
+    justify-content:space-around;
     align-items: center;
-    list-style: none;
-    background-color:rgb(165, 125, 73);
+
+   padding: 5%; 
+    /* background-color:rgb(165, 125, 73); */
     /* #20450ff8; */ 
      /* rgb(102, 72, 38); */
    margin-left:7%;
    margin-right:7%;
-   margin-top: 7%;
+   margin: 7%;
    margin-bottom: 7%; 
-    /* padding: 2%; */
+    /* padding: 2%;
     border: 3px solid black;
     } 
   
 .aboutus{
-  display: block;
+  display:inline;
   justify-content: center;
   text-align: center;
   color:black;
   background-color:rgb(47, 106, 233);
   /* rgb(102, 72, 38); */
-margin-top: 0%;
+
   font-weight: 400;
   font-size: 20px;
   font-family: 'Source Code Pro', monospace;
@@ -134,7 +135,7 @@ margin-top: 0%;
 }
 
 img{
-  display: flexbox;
+ justify-content: space-between;
   border: 3px solid black;
 }
 
@@ -239,10 +240,10 @@ img{
   align-self: center;
 }
 .about-us-text{
-  display: inliine-flex;
+  display: flex;
   background-color: tan;
   padding: 5%;
-  margin: 24px;
+  margin: 2%;
 }
 .madewithlove{
   text-align: center;
@@ -319,7 +320,12 @@ display: flex;
   display: flex;
   justify-content: center;
 }
-.pics{
+#pics{
+  
+  list-style: none;
   display: flex;
-  padding-top: 1%;
+  align-items:center;
+  
+ /* padding: 4%; */
+ background-color:rgb(165, 125, 73);
 }
