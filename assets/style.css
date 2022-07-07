@@ -11,7 +11,7 @@
   display: flex;
     overflow:hidden;
     color: black;
-    background-color:tan;
+    background-color:rgb(255, 217, 0);
     font-family: 'Tinos', serif;
     border: 3px solid black;
     /* margin-bottom: 2%; */
@@ -81,7 +81,7 @@
       display: block;
     align-self: center;
     color:black;
-    background-color:rgb(4, 158, 4);
+    background-color:rgb(47, 106, 233);
     /* rgb(102, 72, 38); */
   
     font-weight: 400;
@@ -101,9 +101,9 @@
      /* rgb(102, 72, 38); */
    margin-left:7%;
    margin-right:7%;
-   margin-top: 0%;
-   margin-bottom: 0%;
-    padding: 2%;
+   margin-top: 7%;
+   margin-bottom: 7%; 
+    /* padding: 2%; */
     border: 3px solid black;
     } 
   
@@ -112,7 +112,7 @@
   justify-content: center;
   text-align: center;
   color:black;
-  background-color:rgb(4, 158, 4);
+  background-color:rgb(47, 106, 233);
   /* rgb(102, 72, 38); */
 margin-top: 0%;
   font-weight: 400;
@@ -124,7 +124,7 @@ margin-top: 0%;
 }
 
 .getmyquote{
-  background-color: rgb(165, 125, 73);
+  background-color: rgb(47, 106, 233);
   display:flexbox;
   text-align: center;
   border: 3px solid  black;
@@ -134,7 +134,7 @@ margin-top: 0%;
 }
 
 img{
-  display: flex;
+  display: flexbox;
   border: 3px solid black;
 }
 
@@ -142,7 +142,7 @@ img{
 .contact-heading{
   text-align: center;
     color:black;
-    background-color:tan;
+    background-color:rgb(47, 106, 233);
     font-weight: 400;
     font-size: 20px;
     font-family: 'Source Code Pro', monospace;
@@ -152,7 +152,7 @@ img{
 .quote-header{
   text-align: center;
   color:black;
-  background-color:tan;
+  background-color:rgb(47, 106, 233);
   font-weight: 400;
   font-size: 20px;
   font-family: 'Source Code Pro', monospace;
@@ -201,7 +201,7 @@ img{
 .contact-body{
   display: flex;
   background-color: rgb(165, 125, 73);
-  padding-bottom: 20%;
+  padding: 20%;
   margin-left: 7%;
   margin-right: 7%;
   border: 3px solid black;
@@ -239,7 +239,7 @@ img{
   align-self: center;
 }
 .about-us-text{
-  display: flex;
+  display: inliine-flex;
   background-color: tan;
   padding: 5%;
   margin: 24px;
@@ -281,7 +281,7 @@ input{
 input[type=submit] {
   font-family: 'Helvetica', serif;
   width: 100%;
-  background-color: rgb(4, 158, 4);
+  background-color: rgb(47, 106, 233);
   border: none;
   color: white;
   padding: 16px 32px;
@@ -298,7 +298,7 @@ input[type=submit] {
   margin-right: 7%;
   border: 3px solid black;
 }
-.icons{
+footer{
   display: flex;
   background-color:tan;
   justify-content:  space-between;
@@ -313,8 +313,13 @@ input[type=submit] {
 display: flex;
   border-radius: 75%;
   justify-content: center;
+  border: 3px solid rgb(47, 106, 233);
 }
 .home-page{
   display: flex;
   justify-content: center;
+}
+.pics{
+  display: flex;
+  padding-top: 1%;
 }
