@@ -151,7 +151,7 @@ align-content: center;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  background-color:rgb(165, 125, 73);
+  background-color:orange;
   /* #20450ff8; */ 
    /* rgb(102, 72, 38); */
  margin-left:7%;
@@ -165,7 +165,7 @@ align-content: center;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
-  background-color:rgb(165, 125, 73);
+  background-color:orange;
   /* #20450ff8; */ 
    /* rgb(102, 72, 38); */
  margin-left:7%;
@@ -177,7 +177,7 @@ align-content: center;
 .reviews-heading{
   text-align: center;
   color:black;
-  background-color:tan;
+  background-color:orange;
   /* rgb(102, 72, 38); */
 
   font-weight: 400;
@@ -187,8 +187,8 @@ align-content: center;
 }
 
 .contact-body{
-  display: flex;
-  background-color: rgb(165, 125, 73);
+ list-style: none;
+  background-color: orange;
   padding: 20%;
   margin-left: 7%;
   margin-right: 7%;
@@ -196,7 +196,7 @@ align-content: center;
 }
 .review-body{
   display: flex;
-  background-color: rgb(165, 125, 73);
+  background-color: orange;
   text-align: center;
   padding-bottom: 20%;
   margin-left: 7%;
@@ -234,11 +234,9 @@ align-content: center;
   border: 3px solid  black;
   font-family: 'Source Code Pro', monospace;
 }
-.madewithlove{
-  text-align: center;
-  background-color: rgb(165, 125, 73);
 
-}
+
+
 #review-body, #post {
   border: 3px solid  black;
   border-radius: 5px;
@@ -281,20 +279,14 @@ input[type=submit] {
 
 .input-form{
   display: flex;
-  background-color: rgb(165, 125, 73);
+  background-color: orange;
   text-align: center;
   padding-bottom: 20%;
   margin-left: 7%;
   margin-right: 7%;
   border: 3px solid black;
 }
-footer{
-  display: inline;
-  background-color:tan;
-  justify-content:  space-around;
-  
-  margin: 0%;
-}
+
 
   
   
@@ -308,9 +300,9 @@ width: 50%;
   
 }
 .home-page{
-  display:flex;
+  /* display:flex; */
 
-background-color:rgb(165, 125, 73);
+background-color:orange;
 }
   /* display: ;
   align-content: center;
@@ -364,6 +356,8 @@ border: 3px solid black;
 
 .homepage-body{
   background-color: orange;
+
+  border: 3px solid black;
   
 }
 .checked {
@@ -457,19 +451,19 @@ input#rate-5:checked ~ label{
   text-shadow: 0 0 20px #952;
 }
 #rate-1:checked ~ form header:before{
-  content: "I just hate it ";
+  content: "I had a poor experience";
 }
 #rate-2:checked ~ form header:before{
-  content: "I don't like it ";
+  content: "Could have been better";
 }
 #rate-3:checked ~ form header:before{
-  content: "It is awesome ";
+  content: "It was good";
 }
 #rate-4:checked ~ form header:before{
-  content: "I just like it ";
+  content: "Great Experience";
 }
 #rate-5:checked ~ form header:before{
-  content: "I just love it ";
+  content: "Above and beyond, will use again";
 }
 .container form{
   display: none;
@@ -531,4 +525,24 @@ form .btn button:hover{
 }
 #empty-boxes{
   width: 20%;
+}
+.contact-info{
+  background-color: orange;
+  list-style: none;
+  text-align:left ;
+}
+form{
+  background-color: orange;
+  margin: 2%;
+}
+.header-about{
+  background-color: orange;
+}
+#empty-boxes{
+ display: flexbox;
+
+  padding: 2%;
+  width: 15%;
+  margin: 4%;
+
 }
