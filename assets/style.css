@@ -83,7 +83,7 @@
       align-items: center;
       text-align: center;
       /* justify-content: center; */
-      display: flex;
+      /* display: flex; */
     align-self: center;
     color:black;
     background-color:rgb(250, 248, 248);
@@ -289,7 +289,7 @@ input[type=submit] {
   border: 3px solid black;
 }
 footer{
-  display: flex;
+  display: inline;
   background-color:tan;
   justify-content:  space-around;
   
@@ -375,13 +375,16 @@ border: 3px solid black;
   margin: 0%;
 }
 #homelogo-text{
+  /* display: flex; */
+margin:2%;
+  padding: 4%;
   text-align: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
   width: 100%;
 }
 #cow{
-  width: 100%;
+  width: 20%;
   
 }
 #empty-boxes{
@@ -444,13 +447,13 @@ html,body{
 }
 input:not(:checked) ~ label:hover,
 input:not(:checked) ~ label:hover ~ label{
-  color: #fd4;
+  color: orange;
 }
 input:checked ~ label{
-  color: #fd4;
+  color: orange;
 }
 input#rate-5:checked ~ label{
-  color: #fe7;
+  color: orange;
   text-shadow: 0 0 20px #952;
 }
 #rate-1:checked ~ form header:before{
@@ -477,7 +480,7 @@ input:checked ~ form{
 form header{
   width: 100%;
   font-size: 25px;
-  color: #fe7;
+  color: orange;
   font-weight: 500;
   margin: 5px 0 20px 0;
   text-align: center;
@@ -522,4 +525,10 @@ form .btn button{
 }
 form .btn button:hover{
   background: #1b1b1b;
+}
+#truckcow{
+  width: 80%;
+}
+#empty-boxes{
+  width: 20%;
 }
