@@ -471,15 +471,15 @@ input#rate-5:checked ~ label{
 input:checked ~ form{
   display: block;
 }
-form header{
+/* form header{
   width: 100%;
   font-size: 25px;
   color: orange;
   font-weight: 500;
   margin: 5px 0 20px 0;
   text-align: center;
-  transition: all 0.2s ease;
-}
+  transition: all 0.2s ease; */
+
 form .textarea{
   height: 100px;
   width: 100%;
