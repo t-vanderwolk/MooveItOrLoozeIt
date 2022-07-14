@@ -11,7 +11,7 @@
 
 
 .navbar {
-  display: flex;
+  display:inline-flex; 
     overflow:hidden;
     color: black;
     background-color:orange;
@@ -240,6 +240,7 @@ align-content: center;
 #review-body, #post {
   border: 3px solid  black;
   border-radius: 5px;
+  background-color: orange;
 }
 #post:hover{
   background-color: deeppink;
@@ -394,8 +395,8 @@ html,body{
   display: grid;
   height: 100%;
   place-items: center;
-  text-align: center;
-  background-color: orange;
+  /* text-align: center; */
+  /* background-color: orange; */
 }
 .container{
   position: relative;
@@ -413,6 +414,7 @@ html,body{
   display: none;
 }
 .container .text{
+  display: inline;
   font-size: 25px;
   color: #666;
   font-weight: 500;
@@ -484,6 +486,7 @@ form .textarea{
   height: 100px;
   width: 100%;
   overflow: hidden;
+  background-color: orange;
 }
 form .textarea textarea{
   height: 100%;
@@ -496,6 +499,8 @@ form .textarea textarea{
   font-size: 17px;
   resize: none;
 }
+
+
 .textarea textarea:focus{
   border-color: #444;
 }
