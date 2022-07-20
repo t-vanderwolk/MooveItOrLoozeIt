@@ -11,11 +11,13 @@
 
 
 .navbar {
- 
+ display: flex;
+ justify-content: center;
     overflow:hidden;
     color: black;
     background-color:orange;
     font-family: 'Tinos', serif;
+    
     border: 3px solid black;
     /* margin-bottom: 2%; */
    
@@ -23,11 +25,11 @@
   }
 
   .navbar a {
-    float: left;
-    font-size: 16px;
+    /* float: left; */
+    font-size: 12px;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     text-decoration: none;
     
   
@@ -323,7 +325,7 @@ background-color:orange;
 
 .pictures{
 background-color: orange;
-justify-content: space-evenly;
+justify-content: space-around;
   display:flex;
    /* justify-content:space-around; */
 
