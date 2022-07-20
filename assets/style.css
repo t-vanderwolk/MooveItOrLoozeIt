@@ -11,7 +11,7 @@
 
 
 .navbar {
-  display:inline-flex; 
+ 
     overflow:hidden;
     color: black;
     background-color:orange;
@@ -114,8 +114,8 @@
 }
 
  img{
-margin: 1%;
-width: 30%;
+margin: 2%;
+width: 20%;
 
 align-content: center;
 
@@ -323,9 +323,6 @@ background-color:orange;
 
 .pictures{
 background-color: orange;
-
-
- 
 justify-content: space-evenly;
   display:flex;
    /* justify-content:space-around; */
@@ -353,11 +350,12 @@ border: 3px solid black;
 
   .homepage-move{
     background-color: orange;
+
   }
 
 .homepage-body{
   background-color: orange;
-
+display: flex;
   border: 3px solid black;
   
 }
@@ -384,6 +382,7 @@ margin:2%;
 }
 #empty-boxes{
   width: 20%;
+  display: inline;
 }
 *{
   margin: 0;
@@ -550,4 +549,10 @@ form{
   width: 15%;
   margin: 4%;
 
+}
+footer{
+justify-content: center;
+}
+#pix{
+  border: 3px solid black;
 }
