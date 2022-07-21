@@ -9,27 +9,19 @@
 }
 
 
-
-.navbar {
- display: flex;
- justify-content: center;
-    overflow:hidden;
-    color: black;
-    background-color:orange;
-    font-family: 'Tinos', serif;
-    
-    border: 3px solid black;
-    /* margin-bottom: 2%; */
-   
-    
-  }
+.navbar{
+  background-color: orange;
+  position: static;
+  display: flex;
+ 
+}
 
   .navbar a {
-    /* float: left; */
-    font-size: 12px;
+     float: left; 
+     font-size: 16px;
     color: black;
     text-align: center;
-    /* padding: 14px 16px; */
+    padding: 10px 12px;
     text-decoration: none;
     
   
@@ -78,8 +70,8 @@
   }
   
   .dropdown:hover .dropdown-content {
-    display: block; }
-
+    display: block; } 
+ 
     header{
       justify-content: center;
       align-items: center;
@@ -190,7 +182,7 @@ align-content: center;
 
 .contact-body{
  list-style: none;
-  background-color: orange;
+  background-color: rgb(0, 166, 255);
   padding: 20%;
   margin-left: 7%;
   margin-right: 7%;
@@ -282,7 +274,7 @@ input[type=submit] {
 
 .input-form{
   display: flex;
-  background-color: orange;
+  background-color: rgb(0, 166, 255);
   text-align: center;
   padding-bottom: 20%;
   margin-left: 7%;
@@ -296,6 +288,7 @@ input[type=submit] {
 
 #home-logo{
 width: 50%;
+
 
   /* align-content: right; */
   /* border: 3px solid orange); */
@@ -324,7 +317,7 @@ background-color:orange;
 
 
 .pictures{
-background-color: orange;
+background-color: rgb(0, 166, 255);
 justify-content: space-around;
   display:flex;
    /* justify-content:space-around; */
@@ -370,13 +363,15 @@ display: flex;
   margin: 0%;
 }
 #homelogo-text{
+  color: black;
   /* display: flex; */
-margin:2%;
+/* margin:2%; */
   padding: 4%;
   text-align: center;
   align-items: center;
   font-family: 'Roboto Slab', serif;
   width: 100%;
+  background-color: rgb(0, 166, 255);
 }
 #cow{
   width: 20%;
@@ -533,12 +528,12 @@ form .btn button:hover{
   width: 20%;
 }
 .contact-info{
-  background-color: orange;
+  background-color:rgb(0, 166, 255);
   list-style: none;
   text-align:left ;
 }
 form{
-  background-color: orange;
+  background-color:rgb(0, 166, 255);
   margin: 2%;
 }
 .header-about{
